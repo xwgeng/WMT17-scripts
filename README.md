@@ -38,7 +38,7 @@ python train.py \
 ```
 
 ## Evaluation
-we utilizes newsdev2017 and newstest2017 as development and test sets respectively. we apply beam search with a beam width of 5 and tune length penalty of `[0.0, 0.2, · · · , 2.0]` in development set. [SacreBLEU](https://github.com/mjpost/sacrebleu/)([Post, 2018](https://www.aclweb.org/anthology/W18-6319.pdf)) is measured to evaluate the translation performance on WMT17 Chinese->English dataset.
+we utilizes newsdev2017 and newstest2017 as development and test sets respectively. we apply beam search with a beam width of 5 and tune length penalty of `[0.0, 0.2, · · · , 2.0]` in development set. [SacreBLEU](https://github.com/mjpost/sacrebleu/)([Post, 2018](https://www.aclweb.org/anthology/W18-6319.pdf)) is measured to evaluate the translation performance on WMT17 English->Chinese dataset.
 
 |Model|Transformer-Base|Transformer-Big|
 |:-:|:-:|:-:|
